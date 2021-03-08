@@ -1,0 +1,23 @@
+{
+  "name": "statemachineproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm start",
+    "build": "npm run build-state-machine && npm run build-server",
+    "build-state-machine": "cd state-machine && npm run build",
+    "build-server": "cd server && npm run build",
+    "postinstall": "npm run install-server && npm run install-state-machine && npm run install-client",
+    "install-server": "cd server && npm install",
+    "install-state-machine": "cd state-machine && npm install",
+    "install-client": "cd client && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
