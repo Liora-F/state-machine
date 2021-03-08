@@ -26,8 +26,8 @@ The following classes are provided:
 **abstract Event**
 - getName()
 
-Machine should be initialized with an initial  state
+>Machine should be initialized with an initial  state
 
-Concrete State classes should implement the 'transition' method 
+>Concrete State classes should implement the 'transition' method 
 
-Event name should be a unique identifier
+>Event name should be a unique identifier
