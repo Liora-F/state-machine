@@ -1,4 +1,7 @@
 ﻿# state-machine
+ 
+ >This project demos a state machine concept, using 'state-machine' library.
+
 ## Run the project
 
 In the project directory, run
@@ -9,8 +12,6 @@ In the project directory, run
 
 #### `npm start`
 
-
-This project demos a state machine concept, using 'state-machine' library.
 
 ## state-machine library functionality:
 The following classes are provided:
